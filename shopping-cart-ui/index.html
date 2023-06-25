@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop now</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="./data/data.js"></script>
+</head>
+
+<body>
+    <div class="screen">
+        <div class="products">
+            <div class="products_heading">
+                <h3>Products</h3>
+            </div>
+            <div class="products_content" id="products_content">
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart_heading">
+                <h3>Cart</h3>
+                <i class="fa fa-shopping-cart"></i>
+            </div>
+            <h2 class="empty_cart" id="empty_cart">Your cart is empty.</h2>
+            <div class="cart_actions" id="cart_actions">
+                <div class="total">
+                    <h4>Total</h4>
+                    <div class="total_container item-count">
+                        <div class="item-label">Items</div>
+                        <div id="item-value" class="number">0</div>
+                    </div>
+                    <div class="total_container price">
+                        <div class="price-label">Price</div>
+                        <div id="price-value" class="number">0</div>
+                    </div>
+                    <div class="total_container savings">
+                        <div class="savings-label">Savings</div>
+                        <div id="savings-value" class="number">0</div>
+                    </div>
+                </div>
+                <div class="buy_now cart_now">Order now</div>
+            </div>
+            <div class="cart_content" id="cart_content">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
